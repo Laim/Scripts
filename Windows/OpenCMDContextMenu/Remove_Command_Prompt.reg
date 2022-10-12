@@ -1,0 +1,18 @@
+Windows Registry Editor Version 5.00
+
+; Created by: StackHowTo.com
+; Created on: 22 August 2021
+; Tutorial: https://stackhowto.com/how-to-add-open-command-prompt-here-to-right-click-menu-in-windows-10/
+
+
+
+[-HKEY_CLASSES_ROOT\Directory\shell\OpenCmdHereAsAdmin]
+
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCmdHereAsAdmin]
+
+[-HKEY_CLASSES_ROOT\Drive\shell\OpenCmdHereAsAdmin]
+
+[-HKEY_CLASSES_ROOT\LibraryFolder\background\shell\OpenCmdHereAsAdmin]
+
+[-HKEY_CLASSES_ROOT\LibraryFolder\background\shell\OpenCmdHereAsAdmin\command]
+
