@@ -1,0 +1,2 @@
+-- Configure development environment to the usual default login that I use
+-- Means I don't need to update autofills
