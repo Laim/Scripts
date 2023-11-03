@@ -1,0 +1,13 @@
+Run this in CMD as Administrator
+
+reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
+
+Then run this 
+
+taskkill /f /im explorer.exe
+
+Then finally run this
+
+start explorer.exe
+
+This will bring back the original (Windows 10 and before) context menu (right click).
